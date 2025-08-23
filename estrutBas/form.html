@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Cadastro</title>
+
+<style>
+    fieldset {
+        margin: 10px 0;
+        border-radius:10px;
+        border-color: red;
+    }
+</style>
+
+</head>
+
+<body>
+    <ul>
+        <li><h1><a href="index.html">Início</h1></a></li>
+        </ul>
+
+<fieldset>
+    <legend>Selecbox</legend>
+    <form method="get">
+        <label>Escolher:</label>
+        <select name="role">
+            <option value="">Selecione Um Cargo</option>
+            <option value="Adm">Aadm</option>
+            <option value="Aux">Aux</option>
+            </select><br>
+            <label>Mensagem:</label>
+            <textarea rows="10" cols="30" name="message"></textarea>
+
+        </select>
+    </form>
+</fieldset>
+
+<fieldset>
+    <legend>CheckBox</legend>
+    <p>Quais opções?</p>
+    <form method="post">
+    <input type="checkbox" name="optional[]" value="queijo">+ Queijo<br>
+    <input type="checkbox" name="optional[]" value="presunto">+ Presunto<br>
+    <input type="checkbox" name="optional[]" disabled value="azeitona">+ Azeitona<br>
+    <p>Sim ou não?</p>
+    <input type="radio" name="simnao" value="sim">Sim<br>
+    <input type="radio" name="simnao" value="nao">Não<br>
+
+    <button type="submit">Enviar</button>
+    </form>
+</fieldset>
+
+<fieldset>
+    <legend>Form simple</legend>
+    <form name="signup" onsubmit="alert('Enviou');" autocomplete="off" target="_blank" method="POST" action="#">
+        Nome: <input type="text" name="name" /><br>
+        Idade: <input type="number" name="age" /><br>
+        Senha: <input type="password" name="password" /><br>
+        <button type="submit">Enviar</button>
+    </form>
+</fieldset>
+
+<fieldset>
+    <legend>Other form</legend>
+    <form>
+        <label>Text:</label><input type="text" /><br>
+        <label>Number:</label><input type="number" step="5" min="0" max="90" /><br>
+        <label>Range:</label><input type="range" min="0" max="10" /><br>
+        <label>Color:</label><input type="color" /><br>
+        <label>E-mail:</label><input type="email" /><br>
+        <label>Url:</label><input type="url" /><br>
+        <label>Date:</label><input type="date" /><br>
+        <label>Week:</label><input type="week" /><br>
+        <label>Month:</label><input type="month" /><br>
+        <label>Checkbox:</label><input type="checkbox" /><br>
+        <label>Radio:</label><input type="radio" name="aceita" /><input type="radio" name="aceita" /><br>
+        <label>File:</label><input type="file" /><br>
+        <label>Search:</label><input type="search" /><br>
+        <label>Button:</label><button value="submit">Enviar</button>
+    </form>
+</fieldset>
+
+</body>
+</html>
