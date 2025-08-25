@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Estrutural</title>
+    <style>
+        a {
+            color: black;
+            padding: 15px;
+            border-radius: 15px;
+        }
+        a:hover{
+            background-color: blue;
+            color: white;
+        }
+        nav ul{
+            display: flex;
+            list-style: none;
+            margin: 0;
+        }
+        nav ul li a{
+            padding: 10px 15px;
+            color: blue;
+            text-decoration: none;
+            border-radius: 15px 0;
+        }
+        nav ul li a:hover{
+        color: white;
+        background: blue;
+        }
+        blockquote{
+            background: lightgray;
+            padding: 15px;
+            margin-left: 0px;
+            border-left: royalblue solid 5px;
+        }
+        article time{
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <a href="../index.html">⬅ Voltar para a Página Inicial</a>
+    <main>
+        <article>
+            <h1>Titulo article</h1>
+            <p>Aartigo publicado em <time pubdate>10/10/10 21:00</time></p>
+            <p>Todo azul é uma cor</p>
+            <blockquote cite="https://fonte.com">
+                <p>Azul é uma cor, isso é verdade.</p>
+            </blockquote>
+        </article>
+        <section></section>
+        <section>teste</section>
+        <nav>
+            <ul>
+                <li><a href="">Item 1</a></li>
+                <li><a href="">Item 2</a></li>
+                <li><a href="">Item 3</a></li>
+            </ul>
+        </nav>
+        <aside></aside>
+    </main>
+    <footer></footer>
+</body>
+</html>
