@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estilização Cores</title>
+    <style>
+        li[id]{
+            background: aqua;
+        }
+        body{
+            background: lightgray;
+        }
+        #pre-definidas{
+            color: red;
+        }
+        #current-color{
+            background: transparent;
+            color: darkblue;
+            border: 2px solid currentColor;
+        }
+        #rgb {
+            background: rgb(92, 23, 23);
+            color: rgb(255, 255, 0);
+        }
+        #rgba{
+            background: rgba(255, 0, 0, 0.5);
+        }
+        #hex{
+            color: #000000;
+            background: #00FF00;
+        }
+        #hex-transparencia{
+            background: #0000FF30;
+        }
+        #hsl{
+            background: hsl(30, 100%, 80%);
+        }
+        #hsla{
+            background: hsla(30, 100%, 80%, 0.5);
+        }
+    </style>
+</head>
+<body>
+    <a href="../index.html">⬅ Voltar para a Página Inicial</a><br>
+    <a href="./index.html">⬅ Voltar Uma Página</a>
+    
+    <h1>Cores</h1>
+    <p>Existem várias formas de deifinirmos cores utilizando o CSS. Elas são:</p>
+    <ul>
+        <li id="pre-definidas">Cores pré-definidas.</li>
+        <li id="current-color">Palavra-chave "current-color"</li>
+        <li id="hex">Hexadecimal</li>
+        <li id="hex-transparencia">Hexadecimal com transparência</li>
+        <li id="rgb">RGB</li>
+        <li id="rgba">RGBA</li>
+        <li id="hsl">HSL</li>
+        <li id="hsla">HSLA</li>
+    </ul>
+    <hr>
+    <h1>HSL</h1>
+    <p>Hue, Saturation, Lightness</p>
+    <ul>
+        <li>
+            <b>Hue (matiz):</b> é o grau na roda de cores (de 0 a 360 graus)
+            <ul>
+                <li>0 ou 360 é vermelho.</li>
+                <li>120 é verde.</li>
+                <li>240 é azul.</li>
+            </ul>
+        </li>
+        <li><b>Saturation (saturação):</b> valor percentual
+            <ul>
+                <li>0% um tom de cinza</li>
+                <li>100% cor total</li>
+            </ul>
+        </li>
+        <li><b>Lightness (luminosidade):</b> luminosidade da cor
+            <ul>
+                <li>0% é preto</li>
+                <li>100% é branco</li>
+            </ul>
+        </li>
+    </ul>
+</body>
+</html>

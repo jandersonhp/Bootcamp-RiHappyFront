@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens</title>
+    <style>
+        div{
+            width: 200px;
+            height: 300px;
+            border: 5px solid blue;
+        }
+        img {
+            width: 100%;
+            height: 100%;
+        }
+        #contain{
+            object-fit: contain;
+        }
+        #cover{
+            object-fit: cover;
+
+        }
+        #none{
+            object-fit: none;
+        }
+        #scale-down{
+            object-fit: scale-down;
+        }
+    </style>
+</head>
+<body>
+    <a href="../index.html">⬅ Voltar para a Página Inicial</a><br>
+    <a href="./index.html">⬅ Voltar Uma Página</a>    
+    
+    <h1>Propriedade <code>object-fit</code></h1>
+
+    <code>object-fit: fill;</code> (padrão)
+    <div>
+        <img src="../../assets/images.png" alt="logo-dio" id="fill">
+    </div>
+
+    <br><code>object-fit: contain;</code>
+    <div>
+        <img src="../../assets/images.png" alt="logo-dio" id="contain">
+    </div>
+
+    <br><code>object-fit: cover;</code>
+    <div>
+        <img src="../../assets/images.png" alt="logo-dio" id="cover">
+    </div>
+
+    <br><code>object-fit: none;</code>
+    <div>
+        <img src="../../assets/images.png" alt="logo-dio" id="none">
+    </div>
+
+    <br><code>object-fit: scale-down;</code>
+    <div>
+        <img src="../../assets/images.png" alt="logo-dio" id="scale-down">
+    </div>
+</body>
+</html>
