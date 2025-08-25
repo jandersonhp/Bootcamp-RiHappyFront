@@ -1,0 +1,11 @@
+body{
+    background-image: linear-gradient(to left, red, black);
+}
+h1{
+    background: red;
+    color: white;
+}
+
+h2{
+    color:red;
+}
