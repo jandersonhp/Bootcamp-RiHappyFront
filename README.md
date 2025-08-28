@@ -16,7 +16,11 @@
 
 ## 📘 Aulas
 - Aula 01: [HTML Básico](https://github.com/jandersonhp/Bootcamp-RiHappyFront/tree/main/Aulas/estrutBas)
+- Aula 02: [HTML Semântico](https://github.com/jandersonhp/Bootcamp-RiHappyFront/tree/main/Aulas/htmlsemantico)
+- Aula 03: [Fundamentos CSS](https://github.com/jandersonhp/Bootcamp-RiHappyFront/tree/main/Aulas/fundamentoscss)
+- Aula 04: [Estilização CSS](https://github.com/jandersonhp/Bootcamp-RiHappyFront/tree/main/Aulas/estilizacaocss)
 
+*Atualizado conforme progresso do bootcamp.*
 ## 💻 Projetos
 - Projeto 01: 
 
