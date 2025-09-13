@@ -22,7 +22,7 @@
 
 *Atualizado conforme progresso do bootcamp.*
 ## 💻 Projetos
-- Projeto 01: 
+- Projeto 01: [Landing Page](https://github.com/jandersonhp/Bootcamp-RiHappyFront/tree/main/Projetos/landingpage)
 
 ---
 
