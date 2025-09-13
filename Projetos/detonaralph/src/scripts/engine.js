@@ -1,7 +1,6 @@
 const state = {
     view: {
         squares: document.querySelectorAll(".square"),
-        enemy: document.querySelector(".enemy"),
         timeLeft: document.querySelector("#time-left"),
         score: document.querySelector("#score"),
         lives: document.querySelector(".menu-lives h2"),
@@ -13,14 +12,14 @@ const state = {
         result: 0,
         currentTime: 60,
         lives: 3,
-        highScore: 0
+        highScore: 0,
+        gameActive: true
     },
     actions: {
         timerId: null,
         countDownTimerId: null
     }
 };
-
 
 function updateLivesDisplay() {
     state.view.lives.textContent = `x${state.values.lives}`;
@@ -47,6 +46,8 @@ function randomSquare() {
 }
 
 function countDown() {
+    if (!state.values.gameActive) return;
+
     state.values.currentTime--;
     state.view.timeLeft.textContent = state.values.currentTime;
 
@@ -56,9 +57,11 @@ function countDown() {
 }
 
 function gameOver() {
+    state.values.gameActive = false; // bloqueia cliques futuros
     clearInterval(state.actions.countDownTimerId);
     clearInterval(state.actions.timerId);
 
+    // Atualiza melhor pontuação
     if (state.values.result > state.values.highScore) {
         state.values.highScore = state.values.result;
         updateHighScoreDisplay();
@@ -78,6 +81,7 @@ function resetGame() {
     state.values.currentTime = 60;
     state.values.lives = 3;
     state.values.hitPosition = 0;
+    state.values.gameActive = true;
 
     state.view.score.textContent = 0;
     state.view.timeLeft.textContent = state.values.currentTime;
@@ -90,13 +94,14 @@ function resetGame() {
 function addListenerHitbox() {
     state.view.squares.forEach((square) => {
         square.addEventListener("mousedown", () => {
+            if (!state.values.gameActive) return; // bloqueia cliques quando acabou
+
             if (square.id === state.values.hitPosition) {
                 state.values.result++;
                 state.view.score.textContent = state.values.result;
                 state.values.hitPosition = null;
                 playSound("hit");
-            } 
-            else {
+            } else {
                 state.values.lives--;
                 updateLivesDisplay();
                 if (state.values.lives <= 0) {
