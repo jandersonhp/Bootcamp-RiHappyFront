@@ -81,6 +81,32 @@ section {
   border-image-slice: 10;
   border-radius: 30px;
 }
+a.back {
+      display: inline-block;
+      padding: 8px 16px;
+      border-radius: 8px;
+      background: linear-gradient(135deg, #f3df68, #e19146);
+      color: #2c2913;
+      font-weight: bold;
+      text-decoration: none;
+      transition: background 0.3s, transform 0.3s;
+    }
+    a.back:hover {
+      background: linear-gradient(135deg, #e19146, #f3df68);
+      color: #fff;
+      transform: scale(1.05);
+    }
+    .back {
+      margin-bottom: 30px;
+      display: inline-block;
+      color: #000000;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+    .back:hover {
+      color: #e19146;
+    }
 
 #course-content {
   width: 800px;
