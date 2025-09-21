@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Memória Infantil</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="src/styles/reset.css">
+    <link rel="stylesheet" href="src/styles/main.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Jogo da Memória</h2>
+        <div class="game">
+            <!-- Itens gerados via JavaScript -->
+        </div>
+        <button class="reset"><i class="fas fa-redo-alt"></i> Reiniciar</button>
+    </div>
+
+    <div class="win-message">
+        <div class="win-content">
+            <h2>Parabéns! Você venceu!</h2>
+            <p>Clique em reiniciar para jogar novamente</p>
+        </div>
+    </div>
+
+    <script src="src/scripts/engine.js"></script>
+</body>
+</html>

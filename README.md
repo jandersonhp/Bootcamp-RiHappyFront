@@ -26,6 +26,8 @@
 - Projeto 01: [Landing Page](https://github.com/jandersonhp/Bootcamp-RiHappyFront/tree/main/Projetos/landingpage)
 
 - Projeto 02: [Jogo Detona Ralph](https://github.com/jandersonhp/Bootcamp-RiHappyFront/tree/main/Projetos/detonaralph)
+
+- Projeto 03: [Jogo da Memória](https://github.com/jandersonhp/Bootcamp-RiHappyFront/tree/main/Projetos/memoriaemoji)
 ---
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/jandersonhp/Bootcamp-RiHappyFront)
