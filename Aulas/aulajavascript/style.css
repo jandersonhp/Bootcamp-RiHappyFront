@@ -1,0 +1,17 @@
+a.back {
+  display: inline-block;
+  padding: 8px 16px;
+  margin-bottom: 30px;
+  border-radius: 8px;
+  background: linear-gradient(135deg, #f3df68, #e19146);
+  color: #2c2913;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background 0.3s, transform 0.3s, color 0.3s;
+}
+
+a.back:hover {
+  background: linear-gradient(135deg, #e19146, #f3df68);
+  color: #fff;
+  transform: scale(1.05);
+}
