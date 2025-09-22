@@ -47,7 +47,7 @@
       margin-bottom: 10px;
       color: #f3df68; /* título dourado */
     }
-    a {
+    .container a {
       display: inline-block;
       padding: 8px 16px;
       border-radius: 8px;
@@ -57,7 +57,7 @@
       text-decoration: none;
       transition: background 0.3s, transform 0.3s;
     }
-    a:hover {
+    .container a:hover {
       background: linear-gradient(135deg, #e19146, #f3df68);
       color: #fff;
       transform: scale(1.05);
@@ -65,13 +65,32 @@
     img {
       margin-bottom: 15px;
     }
+    .footer {
+    width: 100%;
+    margin-top: 40px;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #f3df68; /* dourado */
+    text-shadow: 1px 1px 2px #000; /* leve sombra */
+}
+
+.footer a {
+    color: #e19146; /* laranja do gradiente */
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.footer a:hover {
+    color: #fdf9e4; /* muda para claro no hover */
+    text-decoration: underline;
+}
+
   </style>
 </head>
 <body>
   <img src="https://assets.dio.me/xUpTrGB98-lIvLVpootdVjHzR4sL-nJB-GdciZyqUIY/f:webp/h:120/q:80/L3RyYWNrcy84YWYxOGIxMi1iNmY1LTRiZmYtOTIwNC1iYzU0ZjRkNjJiN2IucG5n" width="110">
   
   <h1>📚 Bootcamp Frontend RiHappy</h1>
-
 
   <div class="container">
     <div class="card">
@@ -83,7 +102,9 @@
       <h2>💻 Projetos</h2>
       <p><a href="./Projetos/">Ir para os projetos</a></p>
     </div>
-
   </div>
+  <footer class="footer">
+  <p>© Janderson Duarte - <a href="https://github.com/jandersonhp" target="_blank">GitHub</a></p>
+</footer>
 </body>
 </html>
