@@ -72,6 +72,7 @@ h2 {
 }
 
 .game {
+    text-decoration: none;
     width: 100%;
     max-width: 430px;
     display: flex;
@@ -126,9 +127,6 @@ h2 {
     box-shadow: 0 0 15px #06d6a0;
 }
 
-/* ... (mantenha todo o CSS anterior) ... */
-
-/* Efeito de vitória - CORRIGIDO */
 .win-message {
     display: none;
     position: fixed;
@@ -171,8 +169,6 @@ h2 {
     animation: fadeIn 0.5s ease;
 }
 
-/* ... (mantenha o restante do CSS) ... */
-
 @keyframes fadeIn {
     from { opacity: 0; }
     to { opacity: 1; }
@@ -212,7 +208,7 @@ h2 {
         gap: 20px;
         border-width: 3px;
     }
-    
+
     h2 {
         font-size: 1.8em;
         text-shadow: 2px 2px 0 #ff6b6b;
