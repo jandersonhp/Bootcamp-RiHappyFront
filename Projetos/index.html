@@ -47,7 +47,7 @@
       margin-bottom: 10px;
       color: #f3df68;
     }
-    a {
+    .container a {
       display: inline-block;
       padding: 8px 16px;
       border-radius: 8px;
@@ -57,22 +57,47 @@
       text-decoration: none;
       transition: background 0.3s, transform 0.3s;
     }
-    a:hover {
+    .container a:hover {
       background: linear-gradient(135deg, #e19146, #f3df68);
       color: #fff;
       transform: scale(1.05);
     }
     .back {
-      margin-bottom: 30px;
       display: inline-block;
+      padding: 8px 16px;
+      border-radius: 8px;
+      background: linear-gradient(135deg, #f3df68, #e19146);
       color: #000000;
-      text-decoration: none;
       font-weight: bold;
-      transition: color 0.3s;
+      text-decoration: none;
+      transition: background 0.3s, transform 0.3s;
+      margin-bottom: 30px;
     }
     .back:hover {
+      background: linear-gradient(135deg, #e19146, #f3df68);
+      color: #fff;
+      transform: scale(1.05);
       color: #e19146;
     }
+    .footer {
+    width: 100%;
+    margin-top: 40px;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #f3df68; /* dourado */
+    text-shadow: 1px 1px 2px #000; /* leve sombra */
+}
+
+    .footer a {
+    color: #e19146; /* laranja do gradiente */
+    text-decoration: none;
+    font-weight: 600;
+}
+
+    .footer a:hover {
+    color: #fdf9e4; /* muda para claro no hover */
+    text-decoration: underline;
+}
   </style>
 </head>
 <body>
@@ -99,5 +124,8 @@
     </div>
 
   </div>
+<footer class="footer">
+  <p>© Janderson Duarte - <a href="https://github.com/jandersonhp" target="_blank">GitHub</a></p>
+</footer>
 </body>
 </html>
