@@ -1,6 +1,6 @@
 # 📂 Projetos – Bootcamp Ri Happy Front-end #2
 
-Pasta que reúne os **desafios de projetos** do **Bootcamp Ri Happy Front-end do Zero #2** da [DIO](https://web.dio.me/track/ri-happy-front-end-do-zero).
+Pasta que reúne os **desafios de projetos** do **Bootcamp Ri Happy Front-end do Zero #2** da [DIO](https://www.dio.me/bootcamp/ri-happy-front-end-do-zero).
 
 ---
 

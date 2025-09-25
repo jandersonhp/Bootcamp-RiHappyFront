@@ -1,6 +1,6 @@
 # 🧠 Memória Emoji
 
-Jogo da Memória com Emojis, desenvolvido como projeto para o **Bootcamp Ri Happy Front-end #2** da [DIO](https://web.dio.me/track/ri-happy-front-end-do-zero).  
+Jogo da Memória com Emojis, desenvolvido como projeto para o **Bootcamp Ri Happy Front-end #2** da [DIO](https://www.dio.me/bootcamp/ri-happy-front-end-do-zero).  
 🔗 **Jogue aqui:** [Memória Emoji](https://bootcamp-rihappyfront.onrender.com/Projetos/memoriaemoji/index.html)
 
 ---
